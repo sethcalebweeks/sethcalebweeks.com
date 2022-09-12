@@ -1,6 +1,6 @@
 ---
 title: Right vs Righteous
-date: 2022-09-12T18:05:36
+date: 2022-09-12T12:05:36
 author: Caleb Weeks
 layout: post
 ---
