@@ -1,6 +1,6 @@
 ---
 title: Advent of Code (2022) Day 1
-date: 2022-12-01T09:00:00
+date: 2022-12-01T09:30:00
 author: Caleb Weeks
 layout: post
 ---
