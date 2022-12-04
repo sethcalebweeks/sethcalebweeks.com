@@ -1,6 +1,6 @@
 ---
 title: Advent of Code (2022) Day 3
-date: 2022-12-02T13:10:00
+date: 2022-12-03T13:10:00
 author: Caleb Weeks
 layout: post
 ---
