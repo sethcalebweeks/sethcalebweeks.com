@@ -1,6 +1,6 @@
 ---
 title: Advent of Code (2022) Day 8
-date: 2022-12-08T17:20:00
+date: 2022-12-08T17:30:00
 author: Caleb Weeks
 layout: post
 ---
