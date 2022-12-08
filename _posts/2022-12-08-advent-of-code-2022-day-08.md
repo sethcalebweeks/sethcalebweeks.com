@@ -16,7 +16,7 @@ layout: post
 - Avert your eyes! This is not code that I am proud of, but it got the job done... I remember seeing some Numberphile or other YouTube video about this problem, but couldn't find it. I'm sure there is some useful math trick to make this easier. I have lots of wet and inefficient code with hard-coded values.
 - The only "trick" I used here was representing the grid as a map with tuples of the positions as keys. It is cool that you can use any data type as a key in Elixir. This is the first time I have ever made use of keys that weren't strings or atoms.
 
-{%
+{% raw %}
 
 ```elixir
 defmodule Day08 do
@@ -80,5 +80,3 @@ defmodule Day08 do
 
 end
 ```
-
-%}
