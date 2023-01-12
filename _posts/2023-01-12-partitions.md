@@ -9,7 +9,7 @@ My friend [Peter](https://github.com/plpullen) pointed out that today is 01/12/2
 
 In Clojure, this can be written as:
 ```clojure
-(partition 2 1 [1 2 3]) ;; => ((0 1) (1 2) (2 3))
+(partition 2 1 [0 1 2 3]) ;; => ((0 1) (1 2) (2 3))
 ```
 
 Partitions can be really useful to solve certain problems. I have been learning Clojure as part of the [#12in23](https://exercism.org/challenges/12in23) challenge, and here are two problems I solved using partition.
