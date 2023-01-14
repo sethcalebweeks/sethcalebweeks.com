@@ -1,3 +1,8 @@
+---
+layout: post
+title: Recognition
+---
+
 At work yesterday, I was thinking about how to overcome my unhealthy desire for recognition. This craving manifests as jealousy, pride, and self-righteousness to the detriment of those around me.
 
 C.S. Lewis suggested that we "are not born with desires unless satisfaction for those desires exists." What is the satisfaction of the desire for recognition? Could it be recognition from God?
