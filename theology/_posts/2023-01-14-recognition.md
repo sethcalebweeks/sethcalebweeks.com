@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Recognition
+description: What is the satisfaction of the desire for recognition? Could it be recognition from God?
+image: https://images.pexels.com/photos/7468255/pexels-photo-7468255.jpeg
 ---
 
 At work yesterday, I was thinking about how to overcome my unhealthy desire for recognition. This craving manifests as jealousy, pride, and self-righteousness to the detriment of those around me.
