@@ -1,5 +1,5 @@
 ---
-title: Today I Learned...
+title: "TIL: Analytics, Jekyll, Open Graph"
 date: 2023-01-14T16:40:00
 layout: post
 ---
