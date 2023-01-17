@@ -1,5 +1,5 @@
 ---
-title: Today I Learned...
+title: TIL: Audio Buffers, Remix, CSS
 date: 2023-01-17T09:00:00
 layout: post
 ---
