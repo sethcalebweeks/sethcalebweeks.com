@@ -9,5 +9,13 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: 'https://sethcalebweeks.github.io',
   base: '/astro-blog',
-  integrations: [tailwind()]
+  integrations: [tailwind({
+    config: { applyBaseStyles: false },
+  })],
+  markdown: {
+    shikiConfig: {
+      theme: 'github-light',
+      wrap: true,
+    },
+  },
 });

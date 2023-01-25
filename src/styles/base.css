@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply h-full;
+  }
+  a {
+    @apply text-blue-800 hover:underline;
+  }
+  p {
+    @apply my-2;
+  }
+  ul {
+    @apply my-2;
+  }
+  li {
+    @apply list-item list-disc ml-10;
+  }
+  h1 {
+    @apply my-2 text-2xl font-bold;
+  }
+  h2 {
+    @apply my-2 text-xl font-semibold;
+  }
+  h3 {
+    @apply my-2 text-lg font-bold;
+  }
+}

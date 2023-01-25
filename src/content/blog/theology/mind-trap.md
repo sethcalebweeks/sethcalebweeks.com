@@ -1,0 +1,8 @@
+---
+title: Mind Trap
+date: 2021-06-09T20:00:18-04:00
+image: /wp-content/uploads/2021/06/twenty-one-pilots-livestream-experience.jpg
+categories:
+  - Personal Reflection
+---
+In my <a href="https://sethcalebweeks.com/2021/05/26/to-remember/">introductory blog post</a>, I mentioned that I may write about my general interests on occasion. I suppose I would not be entirely honest with myself or my readers if I didn't write about my semi-obsession with the band Twenty One Pilots. Many of their songs deal with mental health. Their latest album, Scaled and Icy, has a very different feel to it with mostly shallow lyrics (or so it may seem). I think this album is written from the perspective of someone who is trapped in their mind and not thinking straight. What does it mean to not be thinking straight? It may mean that we are simply overthinking (or not thinking), but usually there is something in our thought process that is incorrect. Today, I was feeling a little dismal, but couldn't entirely figure out why. Subconsciously — or rather at a secondary level of thought — I was mulling over this fear of what people thought of me because of some events of the day. Philippians 4:8 says "whatever is true, whatever is honorable, whatever is just, whatever is pure, whatever is lovely, whatever is commendable, if there is any excellence, if there is anything worthy of praise, think about these things." If we fail to fill our minds with heavenly things, Satan will use our minds to keep us trapped in our thoughts, feeling sorry for ourselves, and living in anxiety and depression.

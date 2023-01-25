@@ -1,21 +1,25 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
-import { getCollection, getEntryBySlug } from 'astro:content';
+import { getCollection } from 'astro:content';
 
-const allBlogPosts = await getCollection('blog');
+const allBlogPosts = await getCollection('blog')
+  .then(posts => {
+    posts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+    return posts;
+  });
 ---
 
 <Layout title="Seth Caleb Weeks">
-	<main class="max-w-5xl text-center">
+	<main>
+		<h1 class="font-normal text-2xl">Posts</h1>
 		<ul>
-			{allBlogPosts.map(post => <li>
-				<a href={post.slug}>
-					<span>{post.data.date.toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) }</span>
-					<h2>{post.data.title}</h2>
-				</a></li>
+			{allBlogPosts.map(post => 
+				<li class="my-4 ml-0 list-none">
+					<span class="text-gray-400">{post.data.date.toLocaleDateString('en-us', { year:"numeric", month:"short", day:"numeric"}) }</span>
+					<h2 class="text-2xl text-blue-600"><a class="hover:underline" href={post.slug.split("/").pop()}>{post.data.title}</a></h2>
+				</li>
 			)}
 		</ul>
-		
 	</main>
 </Layout>
