@@ -7,8 +7,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://sethcalebweeks.github.io',
-  base: '/astro-blog',
+  site: 'https://sethcalebweeks.com/',
   integrations: [tailwind({
     config: { applyBaseStyles: false },
   })],
