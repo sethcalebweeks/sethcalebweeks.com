@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+import { getCollection, getEntryBySlug } from 'astro:content';
+
+const allBlogPosts = await getCollection('blog');
+---
+
+<Layout title="Seth Caleb Weeks">
+	<main class="max-w-5xl text-center">
+		<ul>
+			{allBlogPosts.map(post => <li>
+				<a href={post.slug}>
+					<span>{post.data.date.toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) }</span>
+					<h2>{post.data.title}</h2>
+				</a></li>
+			)}
+		</ul>
+		
+	</main>
+</Layout>
