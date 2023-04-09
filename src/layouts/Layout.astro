@@ -20,8 +20,9 @@ const { title, image, description } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
     <meta property="og:title" content={title} />
-    <meta property="og:type" content="article" />
+    <meta property="og:type" content="website" />
     <meta property="og:image" content={image ?? ""} />
+    <meta property="og:url" content={Astro.site} />
     <meta property="og:description" content={description ?? ""} />
 	</head>
 	<body class="flex flex-col">
