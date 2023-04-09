@@ -1,7 +1,7 @@
 ---
 title: Insufficient Funds
 date: 2023-04-08T22:10:00
-image: https://images.pexels.com/photos/7927581/pexels-photo-7927581.jpeg
+image: /images/man-empty-wallet.jpg
 description: 'I was transferring money to my credit card today to pay it off, but after I clicked "Make Payment", I received an error: "There are insufficient funds in your account to make this payment."'
 ---
 
