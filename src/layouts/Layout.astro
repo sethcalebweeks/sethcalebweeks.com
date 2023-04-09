@@ -4,10 +4,9 @@ import '../styles/base.css';
 export interface Props {
 	title: string;
   image?: string;
-
 }
 
-const { title, image = "" } = Astro.props;
+const { title, image } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -21,7 +20,7 @@ const { title, image = "" } = Astro.props;
 		<title>{title}</title>
     <meta property="og:title" content={title} />
     <meta property="og:type" content="article" />
-    <meta property="og:image" content={image} />
+    <meta property="og:image" content={image ?? ""} />
 	</head>
 	<body class="flex flex-col">
 		<header class="border-b border-color-black">
