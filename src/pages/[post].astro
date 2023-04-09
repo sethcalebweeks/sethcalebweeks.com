@@ -15,7 +15,7 @@ const { data, render } = Astro.props;
 const { Content } = await render();
 ---
 
-<Layout title={data.title}>
+<Layout title={data.title} image={data.image}>
   <h1 class="text-3xl font-bold">{data.title}</h1>
   <span class="text-gray-400">
     {data.date.toLocaleDateString('en-us', { year:"numeric", month:"short", day:"numeric"})}
